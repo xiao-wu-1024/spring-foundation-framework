@@ -17,5 +17,8 @@ SpringBoot整合基础框架
     权限控制
     swagger接口管理
 ## 后台接口模块 -- spring-api-admin
+    ps:需要引入业务层模块
 ## 前台接口模块 -- spring-api-portal
+    ps:需要引入业务层模块
 ## 业务层模块 -- spring-business
+    ps:需要引入基础模块

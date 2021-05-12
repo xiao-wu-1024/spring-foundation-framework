@@ -11,5 +11,13 @@
 
     <artifactId>spring-business</artifactId>
 
+    <dependencies>
+        <!--引入基础模块-->
+        <dependency>
+            <groupId>com.wujia.spring</groupId>
+            <artifactId>spring-base</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 </project>

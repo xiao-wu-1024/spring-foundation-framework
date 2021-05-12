@@ -11,5 +11,13 @@
 
     <artifactId>spring-api-admin</artifactId>
 
+    <dependencies>
+        <!--引入service-->
+        <dependency>
+            <groupId>com.wujia.spring</groupId>
+            <artifactId>spring-business</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 </project>

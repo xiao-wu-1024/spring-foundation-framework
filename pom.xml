@@ -64,23 +64,6 @@
             <scope>test</scope>
         </dependency>
 
-        <dependency>
-            <groupId>com.wujia.spring</groupId>
-            <artifactId>spring-api-portal</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.wujia.spring</groupId>
-            <artifactId>spring-business</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.wujia.spring</groupId>
-            <artifactId>spring-base</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
     </dependencies>
 
     <build>

@@ -4,6 +4,7 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.spring.business.entity.TestUser;
 import com.spring.business.service.ITestUserService;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -21,6 +22,8 @@ public class TestController {
 
     @Resource
     private ITestUserService testUserService;
+    @Resource
+    private RedisTemplate<String, String> redisTemplate;
 
     @GetMapping("/test")
     public String test(){

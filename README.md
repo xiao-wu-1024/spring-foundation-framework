@@ -6,6 +6,7 @@ SpringBoot整合基础框架
     持久层: MyBatisPlus
     数据库: MySQL
     缓存: Redis
+    工具类: hutool工具类
 # 项目模块
 ## 基础模块 -- spring-base
     RabbitMq

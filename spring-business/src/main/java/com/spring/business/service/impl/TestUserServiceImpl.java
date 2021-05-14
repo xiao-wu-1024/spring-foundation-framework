@@ -1,10 +1,14 @@
 package com.spring.business.service.impl;
 
 
+import cn.hutool.db.Entity;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.spring.business.entity.TestUser;
 import com.spring.business.mapper.TestUserMapper;
 import com.spring.business.service.ITestUserService;
+import org.springframework.beans.BeanUtils;
+import org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory;
+import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -21,7 +25,6 @@ public class TestUserServiceImpl extends ServiceImpl<TestUserMapper, TestUser> i
     private TestUserMapper testUserMapper;
 
     public static void main(String[] args) {
-
     }
 }
 

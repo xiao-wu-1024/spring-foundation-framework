@@ -3,6 +3,7 @@ package com.spring.business.entity;
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Builder;
 import lombok.Data;
+import lombok.experimental.Accessors;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -14,7 +15,7 @@ import java.util.Date;
  * @since 2021-04-08 17:05:42
  */
 @Data
-@Builder
+@Accessors(chain = true)
 @TableName("test_user")
 public class TestUser implements Serializable {
     private static final long serialVersionUID = -76953908500471675L;
@@ -46,7 +47,6 @@ public class TestUser implements Serializable {
      * 账户状态 0正常 1冻结
      */
     private Integer accountStatus;
-
 
 }
 

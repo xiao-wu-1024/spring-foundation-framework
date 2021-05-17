@@ -3,6 +3,8 @@ package com.spring.portal.controller;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.spring.business.entity.TestUser;
 import com.spring.business.service.ITestUserService;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -16,15 +18,15 @@ import javax.annotation.Resource;
  * @date 2021/5/13 14:30
  */
 @Slf4j
+@Api(tags = "测试Controller")
 @RestController
 @RequestMapping("/test")
 public class TestController {
 
     @Resource
     private ITestUserService testUserService;
-    @Resource
-    private RedisTemplate<String, String> redisTemplate;
 
+    @ApiOperation("测试接口")
     @GetMapping("/test")
     public String test(){
         System.out.println("过来了");

@@ -9,7 +9,7 @@ SpringBoot整合基础框架
     工具类: hutool工具类
 # 项目模块
 ## 基础模块 -- spring-base
-    RabbitMq
+    RabbitMq -- 待定,业务暂不明确未想好怎样封装
     定时任务框架
     oss文件上传
     Exelce表格导入导出

@@ -12,6 +12,13 @@
     <artifactId>spring-base</artifactId>
 
     <dependencies>
+        <!-- 定时任务框架 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-quartz</artifactId>
+            <version>2.4.3</version>
+        </dependency>
+
         <!--rabbitmq-->
         <dependency>
             <groupId>org.springframework.boot</groupId>

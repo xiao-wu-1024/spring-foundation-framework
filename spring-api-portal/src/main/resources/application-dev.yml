@@ -28,6 +28,7 @@ knife4j:
   setting:
     enableSwaggerModels: true
     swaggerModelName: 我是自定义的Model名称
+  base-packge: com.spring.portal
 mybatis-plus:
   global-config:
     db-config:
